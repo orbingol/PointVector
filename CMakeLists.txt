@@ -24,8 +24,11 @@ add_executable(vector src/app_vector.cpp)
 install(TARGETS point vector DESTINATION ${APP_INSTALL_DIR})
 
 # Add a custom target for calling inside IDEs
+if(NOT MSVC)
+    set(APP_MAKE_PARAM "+env")
+endif()
 add_custom_target(install_project
-        COMMAND +env $(CMAKE_COMMAND) --build . --target install
+        COMMAND ${APP_MAKE_PARAM} $(CMAKE_COMMAND) --build . --target install
         COMMENT "Installing ${PROJECT_NAME}...")
 
 # Generate an uninstall target
