@@ -14,6 +14,12 @@
  * Please use <a href="https://cmake.org/" target="_blank">CMake</a> to build the demo applications \c point and \c vector
  * inside \c src/ directory of the <a href="https://github.com/orbingol/PointVector">repository</a>.
  *
+ * You may use the following command: to build the demo applications
+ *
+ * \code{.unparsed}
+ *  make; make install
+ * \endcode
+ *
  * \section testing_sec Testing
  *
  * This project uses <a href="https://github.com/catchorg/Catch2" target="_blank">Catch Framework</a> for implementing unit tests.
@@ -21,7 +27,7 @@
  * To execute tests directly from the command prompt:
  *
  * \code{.unparsed}
- *  make; make test
+ *  make test
  * \endcode
  *
  * Visual Studio users can build \b RUN_TESTS project to run the tests.
