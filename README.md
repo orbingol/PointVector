@@ -1,6 +1,6 @@
-# Point and Vector Template Classes
+# Point and Vector Template Classes for C++
 
-This repository provides n-dimensional point and vector implementations in C++ programming language. The code is
+This repository provides n-dimensional point and vector implementations for C++ programming language. The code is
 compatible with C++11 standard.
 
 ## Building
