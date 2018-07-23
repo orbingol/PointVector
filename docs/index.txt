@@ -1,0 +1,38 @@
+/*! \mainpage PointVector Documentation
+ *
+ * \section intro_sec Introduction
+ *
+ * \b PointVector is a header-only n-dimensional point and vector library for C++. The code is compatible with C++11 standard.
+ *
+ * \section build_sec Build Instructions
+ *
+ * geomdl::Point and geomdl::Vector classes are <a href="https://isocpp.org/wiki/faq/templates" target="_blank">template classes</a>.
+ * Therefore, no pre-compilation steps are required. Directly copy files to your project, include them in your header files and they should work.
+ *
+ * \section demoapp_sec Demo Applications
+ *
+ * Please use <a href="https://cmake.org/" target="_blank">CMake</a> to build the demo applications \c point and \c vector
+ * inside \c src/ directory of the <a href="https://github.com/orbingol/PointVector">repository</a>.
+ *
+ * \section testing_sec Testing
+ *
+ * This project uses <a href="https://github.com/catchorg/Catch2" target="_blank">Catch Framework</a> for implementing unit tests.
+ * All tests can be found under \c tests/ directory of the <a href="https://github.com/orbingol/PointVector">repository</a>.
+ * To execute tests directly from the command prompt:
+ *
+ * \code{.unparsed}
+ *  make; make test
+ * \endcode
+ *
+ * Visual Studio users can build \b RUN_TESTS project to run the tests.
+ *
+ * \section author_sec Author
+ *
+ * - Onur Rauf Bingol (<a href="https://github.com/orbingol">\@orbingol</a>)
+ *
+ * \section license_sec License
+ *
+ * - <b>PointVector</b> is licensed under the MIT License
+ * - <b>Catch Framework</b> is licensed under the Boost Software License v1.0
+ *
+ */
